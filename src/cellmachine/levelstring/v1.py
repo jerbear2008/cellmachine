@@ -19,7 +19,7 @@ def format_cells(cells, placeables, width, height):
         10: "0",
     }
 
-    if placeables  != "":
+    if placeables != "":
         for placeable in placeables.split(","):
             x, y = placeable.split(".")
             y = height - int(y) - 1
